@@ -1,0 +1,116 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(255, 60, 0);
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #e15f41;
+
+}
+
+#cabecalho
+.nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.carousel .carousel-item {
+    height: 300px; /* Defina a altura desejada para as imagens do carrossel */
+    }
+
+.carousel-item img {
+    height: 100%; /* Ajusta a altura das imagens para preencher o contêiner */
+    width: 100%;
+    object-fit: cover; /* Redimensiona as imagens para cobrir todo o espaço disponível */
+    display: block; /* Garante que a imagem seja exibida como um bloco */
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
+}
+
+
+#locacoes .col-md-4 img,
+#servicos .col-md-4 img {
+    height: 250px; /* Defina a altura desejada para as imagens */
+    object-fit: cover; /* Redimensiona as imagens para cobrir todo o espaço disponível */
+}
+
+#empilhadeira .col-md-3 img ,
+#transpaleteira .col-md-3 img,
+#guindaste  .col-md-3 img,
+#plataforma .col-md-3 img{
+    height: 150px; /* Defina a altura desejada para as imagens */
+    object-fit: cover;
+}
+
+.orcamento-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 200px; 
+    font-weight: bold;
+}
+
+.center-button {
+    display: block;
+    margin: 0 auto;
+}
+
+
+#sobre-a-empresa, #catalogo, #fale-conosco {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: red;
+}
+
+.text-h3 {
+
+    color: red;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+background-color: red;
+color:#fff
+}
+
+.nav-cardapio .nav-link:hover {
+color:#e15f41
+}
+
+.socia-links li {
+    list-style: none;
+    display: inline;
+
+}
+
+.socia-links a {
+    text-decoration: none;
+}
+
+@media (max-width:767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}

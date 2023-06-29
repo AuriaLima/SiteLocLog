@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOG LOC</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Itim&family=Josefin+Sans:wght@200&family=Pacifico&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.min.js"></script>
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">
+                LOGLOC
+            </h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-itens fw-bold">
+                        <a href="#sobre-a-empresa" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Quem somos
+                        </a>
+                    </li>
+                    <li class="nav-itens fw-bold">
+                        <a href="#locacoes" class="nav-link">
+                            <i class="bi bi-clock-history me-1"></i>
+                            Locações
+                        </a>
+                    </li>
+                    <li class="nav-itens fw-bold">
+                        <a href="#catalogo" class="nav-link">
+                            <i class="bi bi-cart me-1"></i>
+                            Vendas
+                        </a>
+                    </li>
+                    <li class="nav-itens fw-bold">
+                        <a href="#servicos" class="nav-link">
+                            <i class="bi bi-hammer me-1"></i>
+                            Serviços
+                        </a>
+                    </li>
+                    <li class="nav-itens fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-empresa">
+            <div>
+                <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img src="img.carousel/empilhadeira 02.jpg" alt="empilhadeira">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="img.carousel/paleteira.jpg" alt="transpaleteira">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="img.carousel/PLAFAFORMA ELEVATORIA 01.jpg" alt="plataforma elevatoria">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+                <div class="pt-5 pb-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="guindastes-.png" class="d-block w-100 rounded"
+                                    alt="logo">
+                            </div>
+                            <div class="col-md-7 mt-3 mt-md-0">
+                                <h2 class="section-title">Quem Somos</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, totam quis
+                                    dignissimos similique tempore consectetur eum mollitia temporibus tenetur facilis,
+                                    asperiores maxime suscipit nihil optio sequi. Atque quae veritatis perspiciatis.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi laudantium inventore
+                                    vero, culpa eius perferendis commodi sed nam cum molestiae illo, assumenda, quas
+                                    minima eligendi temporibus consequatur sit accusantium eum!
+                                </p>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="locacoes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Locações</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="empilhadeira 02.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-h3 fs-4">
+                            Locações de curto período
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas nostrum culpa dolorem
+                            vero corporis incidunt, accusantium non itaque maiores illum laboriosam id at nulla? Magnam
+                            odio harum eum veniam atque.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="empilhadeira 03.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-h3 fs-4">
+                            Locações de médio período
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas nostrum culpa dolorem
+                            vero corporis incidunt, accusantium non itaque maiores illum laboriosam id at nulla? Magnam
+                            odio harum eum veniam atque.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="empilhadeira 05.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-h3 fs-4">
+                            Locação de longo período
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas nostrum culpa dolorem
+                            vero corporis incidunt, accusantium non itaque maiores illum laboriosam id at nulla? Magnam
+                            odio harum eum veniam atque.
+                        </p>
+                    </div>
+                    <button class="orcamento-button center-button">Solicite seu orçamento</button>
+                </div>
+            </div>
+        </section>
+        <section id="catalogo" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Vendas
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#empilhadeira"
+                                class="fw-bold text-star nav-link text-colored active">Empilhadeiras</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#transpaleteira"
+                                class="fw-bold text-star nav-link text-colored">Transpaleteiras</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#guindaste"
+                                class="fw-bold text-star nav-link text-colored">Guindastes</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#plataforma"
+                                class="fw-bold text-star nav-link text-colored">Plataformas Elevatórias</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#orcamento"
+                                class="fw-bold text-star nav-link text-colored">Solicitar orçamento</button>
+                    
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="empilhadeira">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="empilhadeira 02.jpg"
+                                            alt="empilhadeira02">
+                                        <h5 class="text-colored fw-bold mt-2">Empilhadeiras Elétricas</h5>
+                                        <p>
+                                        
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum,
+                                            dignissimos aut alias, nesciunt vero itaque nisi quo voluptatibus sed atque
+                                            voluptate laboriosam ullam possimus exercitationem temporibus voluptatem vel
+                                            magni suscipit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="empilhadeira 03.jpg" alt="emilhadeira03">
+                                        <h5 class="text-colored fw-bold mt-2">Mini-Empilhadeiras</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum,
+                                            dignissimos aut alias, nesciunt vero itaque nisi quo voluptatibus sed atque
+                                            voluptate laboriosam ullam possimus exercitationem temporibus voluptatem vel
+                                            magni suscipit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="transpaleteira">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="transpaleteira.jpg"
+                                            alt="transpaleteira01">
+                                        <h5 class="text-colored fw-bold mt-2">Transpaleteiras Elétricas</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum,
+                                            dignissimos aut alias, nesciunt vero itaque nisi quo voluptatibus sed atque
+                                            voluptate laboriosam ullam possimus exercitationem temporibus voluptatem vel
+                                            magni suscipit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="transpaleteira1.jpg" alt="transpaleteira02">
+                                        <h5 class="text-colored fw-bold mt-2">Mini-transpaleteiras</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum,
+                                            dignissimos aut alias, nesciunt vero itaque nisi quo voluptatibus sed atque
+                                            voluptate laboriosam ullam possimus exercitationem temporibus voluptatem vel
+                                            magni suscipit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="guindaste">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="guindastes-.png"
+                                            alt="guindaste">
+                                        <h5 class="text-colored fw-bold mt-2">Guindastes</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum,
+                                            dignissimos aut alias, nesciunt vero itaque nisi quo voluptatibus sed atque
+                                            voluptate laboriosam ullam possimus exercitationem temporibus voluptatem vel
+                                            magni suscipit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                                    <div class="tab-pane" id="plataforma">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="LATAFORMA ELEVATORIA 02.jpg"
+                                                    alt="lataforma01">
+                                                <h5 class="text-colored fw-bold mt-2">Plataforma Elevatória fixa</h5>
+                                                <p>
+                                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum,
+                                                    dignissimos aut alias, nesciunt vero itaque nisi quo voluptatibus
+                                                    sed atque voluptate laboriosam ullam possimus exercitationem
+                                                    temporibus voluptatem vel magni suscipit.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <img class="d-block w-100" src="PLAFAFORMA ELEVATORIA 01.jpg"
+                                                    alt="plataforma01">
+                                                <h5 class="text-colored fw-bold mt-2">Plataforam elevatória articulada</h5>
+                                                <p>
+                                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum,
+                                                    dignissimos aut alias, nesciunt vero itaque nisi quo voluptatibus
+                                                    sed atque voluptate laboriosam ullam possimus exercitationem
+                                                    temporibus voluptatem vel magni suscipit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="orcamento">
+                                        <div class="row">
+                                                <div class="col-md-7 mb-5">
+                                                    <form>
+                                                        <div class="mb-3">
+                                                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                                            <input type="text" id="nome" class="form-control" required>
+                                                        </div>
+                                                        <div class="mb-3" >
+                                                            <label for="email" class="form-label fw-bold text-colored" >Seu e-mail</label>
+                                                            <input type="email" id="email" class="form-control" required>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                                            <input type="tel" id="telefone" class="form-control">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                                            <textarea class="form-control" id="mensagem" required></textarea>
+                                                        </div>
+                                                        <button type="submit" class="btn orcamento-button">Enviar</button>
+                                                    </form>
+                                                </div>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Serviços</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="serviços/preventiva.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            Manutenção preventiva
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas nostrum culpa dolorem
+                            vero corporis incidunt, accusantium non itaque maiores illum laboriosam id at nulla? Magnam
+                            odio harum eum veniam atque.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="serviços/corretiva.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            
+                            Manutenção corretiva
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas nostrum culpa dolorem
+                            vero corporis incidunt, accusantium non itaque maiores illum laboriosam id at nulla? Magnam
+                            odio harum eum veniam atque.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="serviços/calandário.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            
+                            Agendar manutenção
+
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas nostrum culpa dolorem
+                            vero corporis incidunt, accusantium non itaque maiores illum laboriosam id at nulla? Magnam
+                            odio harum eum veniam atque.
+                        </p>
+                        <button type="submit" class="btn orcamento-button">Agendar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Contato</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3" >
+                                <label for="email" class="form-label fw-bold text-colored" >Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Rede Sociais
+                            </h3>
+                            <ul class="socia-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5" >
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored" >
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                    Rua Recife, n° 543, Bairro Santa Rita - Recife - PE
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div> 
+        </section>
+    </div>
+<script>
+    $(document).ready(function () {
+            $('#telefone').mask('(00) 00000-0000');
+        });
+
+</script>
+</body>
+
+</html>
